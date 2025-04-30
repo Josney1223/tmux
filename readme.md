@@ -1,5 +1,10 @@
 # TMUX CONFIG
 
+Use with Nvim and Kyed for better programming experience:
+- [Kyed](https://github.com/rvaiya/keyd)
+    - For Caps lock become useful as ctrl + esc
+- [Tmux](https://github.com/Josney1223/nvim)
+
 ## Requirements
 - Neovim 3.2+
 
@@ -21,10 +26,10 @@ Not tested yet
 ## Installed Plugins and Major Commands
 - Prefix command: `<C-Space>`
 - Change Panes:
-    - `<C-l>` Change window left
-    - `<C-r>` Change window right
-    - `<C-j>` Change window down
-    - `<C-k>` Change window up
+    - `<Prefix>h` Change window left
+    - `<Prefix>l` Change window right
+    - `<Prefix>j` Change window down
+    - `<Prefix>k` Change window up
 - Change Window:
     - `<Prefix><number>` Go to window number
 
